@@ -1,0 +1,110 @@
+.single-content-modal {
+    width: 18%;
+    margin: 10px;
+    text-align: center;
+    transition: 0.2s linear;
+    position: relative;
+}
+
+.single-content {
+    background-color: #EFECEC;
+    color: #0C2D57;
+
+    .card-header {
+        padding: 4px 4px 0 4px;
+
+        img {
+            height: 335px;
+            border-radius: 5px;
+        }
+    }
+
+    .card-body {
+        .card-title {
+            font-size: 20px;
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: rgb(85, 127, 171);
+        color: white;
+        padding: 2px 10px;
+        border-radius: 50px;
+        font-size: 12px;
+    }
+
+    .overlay-danger {
+        background-color: crimson;
+    }
+
+    .overlay-warning {
+        background-color: rgb(208, 105, 68);
+    }
+}
+
+.single-content:hover {
+    box-shadow: 5px 5px 10px black;
+    scale: 1.05;
+}
+
+@media screen and (max-width:600px) {
+    .single-content-modal {
+        width: 40%;
+        margin: 10px;
+        text-align: center;
+        transition: 0.2s linear;
+        position: relative;
+    }
+    
+    .single-content {
+        background-color: #EFECEC;
+        color: #0C2D57;
+        
+    
+        .card-header {
+            padding: 6px 2px 0px 2px;
+    
+            img {
+                height: 220px;
+                border-radius: 5px;
+            }
+        }
+    
+        .card-body {
+            padding: 8px;
+            .card-title {
+                font-size: 16px;
+            }
+            .card-data{
+                font-size: 12px;
+            }
+        }
+    
+        .overlay {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: rgb(85, 127, 171);
+            color: white;
+            padding: 2px 10px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+    
+        .overlay-danger {
+            background-color: crimson;
+        }
+    
+        .overlay-warning {
+            background-color: rgb(208, 105, 68);
+        }
+    }
+    
+    .single-content:hover {
+        box-shadow: 5px 5px 10px black;
+        scale: 1.05;
+    }
+}

@@ -1,0 +1,8 @@
+.carousel-image{
+    width: 90px;
+}
+@media screen and (max-width:600px) {
+    .carousel-image{
+        width: 70px;
+    }
+}

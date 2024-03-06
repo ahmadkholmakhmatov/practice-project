@@ -1,0 +1,19 @@
+.trending {
+    .all-content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .trending {
+        .all-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0px;
+        }
+    }
+    
+}
