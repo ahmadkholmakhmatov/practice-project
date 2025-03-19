@@ -4,7 +4,7 @@ import Fade from "@mui/material/Fade";
 import Modal from "@mui/material/Modal";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import axios from "axios";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { api_key, imgPath } from "../../config/config";
 import "./Modal.scss";
 import ModalCarousel from "../Carousel/ModalCarousel";

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { TextField, Tabs, Tab } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ContentItem from "../../components/ContentItem/ContentItem";
